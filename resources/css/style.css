@@ -50,3 +50,51 @@ nav span {
   font-family: Helvetica;
   font-size: 22px;
 }
+
+/* main content containter */
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* our mission */
+
+.our-mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("C:/Users/belko/Documents/Coding/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.main-image-content h2 {
+  color: seashell;
+  width: 1200px;
+  background-color: black;
+  padding: 10px 10px;
+  font-family: Helvetica;
+  font-size: 33px;
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.main-image-content h4 {
+  color: seashell;
+  width: 1200px;
+  background-color: black;
+  padding: 10px 10px;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.our-mission-text {
+  align-content: center;
+}
