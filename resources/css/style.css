@@ -55,7 +55,10 @@ nav span {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 
@@ -65,7 +68,7 @@ nav span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("C:/Users/belko/Documents/Coding/teacozy/resources/images/img-mission-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
   padding-top: 70px;
@@ -97,4 +100,75 @@ nav span {
 
 .our-mission-text {
   align-content: center;
+}
+
+/* tea of the month */
+
+.tea-month {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding-top: 70px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tea-month-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.tea-month-text h2 {
+  color: seashell;
+  width: 1200px;
+  background-color: black;
+  padding: 10px 10px;
+  font-family: Helvetica;
+  font-size: 33px;
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.tea-month-text h4 {
+  color: seashell;
+  width: 1200px;
+  background-color: black;
+  padding: 10px 10px;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.tea-month-images img {
+  height: 200px;
+  width: 300px;
+  padding-right: 30px;
+}
+
+.tea-month-images span {
+  display: block;
+}
+
+.tea-month-images div {
+  align-items: flex-start;
+}
+
+.tea-month-captions {
+  width: 300px;
+  height: 26px;
+  padding: 5px 5px;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bold;
 }
