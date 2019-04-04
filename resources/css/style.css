@@ -51,7 +51,8 @@ nav span {
   font-size: 22px;
 }
 
-/* main content containter */
+
+/* main content container */
 
 .content {
   display: flex;
@@ -111,6 +112,7 @@ nav span {
   padding-top: 70px;
   align-items: flex-start;
   justify-content: center;
+  padding-bottom: 70px;
 }
 
 .tea-month-images {
@@ -171,4 +173,117 @@ nav span {
   font-family: Helvetica;
   text-align: center;
   font-weight: bold;
+}
+
+/* locations */
+
+.locations {
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.locations-title {
+  color: seashell;
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-family: Helvetica;
+  font-size: 33px;
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.location-one span {
+  display: block;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.location-one h3 {
+  color: seashell;
+  text-align: center;
+  font-size: 25.74px;
+  font-weight: bold;
+}
+
+.location-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.location-two span {
+  display: block;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.location-two h3 {
+  color: seashell;
+  text-align: center;
+  font-size: 25.74px;
+  font-weight: bold;
+}
+
+.location-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.location-three span {
+  display: block;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.location-three h3 {
+  color: seashell;
+  text-align: center;
+  font-size: 25.74px;
+  font-weight: bold;
+}
+
+.location-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.location-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 1100px;
+  margin: 0px 50px;
 }
